@@ -1,0 +1,18 @@
+function location(){
+    // let title = $("#A-title");
+    // let locationPara = $("B-content");
+
+    // let data=[{
+    //     title:"LET 'S GO",
+    //     paragraph:`"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore minima ratione adipisci delectus
+    //     nihil."`
+    // }]
+
+    // title.append(data[0].title)
+    // locationPara.append(data[0].paragraph)
+
+    
+
+}
+
+

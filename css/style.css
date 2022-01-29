@@ -1,0 +1,418 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 70%;
+}
+
+.navbar-nav a {
+    font-weight: 500;
+}
+
+.form-inline .form-control {
+    border-radius: 20px;
+    background: #c3bfbc;
+}
+
+.hero {
+    background: url(/images/hero.png)0 -215px, no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+.hero h1 {
+    color: #deb37e;
+    font-size: 50px;
+    font-weight: 700;
+    width: 70%;
+}
+
+.hero p,
+h5 {
+    font-style: italic;
+}
+
+.hero button {
+    border-radius: 20px;
+    font-weight: 800;
+
+}
+
+.location {
+    background: url(/images/Shadow\ .png) 0 400px no-repeat;
+    padding: 40px 0;
+}
+
+.location .title-head h2 {
+    color: #e2a355;
+    font-weight: 900;
+}
+
+.location .title-head {
+    width: 50%;
+    margin: auto;
+}
+
+
+.location .card {
+    width: 97%;
+    background: #7f7770;
+}
+
+.location .card p {
+    width: 80%;
+}
+
+.location-btn {
+    background: #7f7770;
+    border-radius: 20px;
+    margin: auto;
+    font-weight: 700;
+
+}
+
+
+
+.discount button,
+.offer button {
+    background: #e2a355;
+    border-radius: 50px;
+}
+
+.discount .discount-content {
+    background: #7f7770;
+    padding: 50px;
+}
+
+.discount h2 {
+    width: 70%;
+}
+
+
+
+.offer-content {
+    background: #deb37e;
+}
+
+.offer h2 {
+    width: 70%
+}
+
+.mountains {
+    background: #7f7770;
+    padding: 50px 0;
+}
+
+.mountains p {
+    width: 45%;
+    margin: auto
+}
+
+.world {
+    background: url(/images/climbing.png) 0 -400px no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.card-img figure {
+    max-height: 320px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.world h2 {
+    color: #deb37e;
+    font-size: 50px;
+    font-weight: 700;
+    width: 70%;
+}
+
+.world span {
+    color: #000;
+}
+
+.lorem-cards {
+    padding: 50px 0;
+}
+
+.lorem-cards .content h2 {
+    color: #deb37e;
+    ;
+}
+
+.regard {
+    padding: 50px 0;
+    /* background: url(/IMAGES/right-Shadow.png) 0 0 no-repeat;
+    background-size: revert; */
+}
+
+.regard p {
+    font-weight: 900;
+    margin: auto;
+    width: 49%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.email {
+    padding: 50px 0;
+    background: #deb37e;
+}
+
+.email h2 {
+    font-size: 50px;
+}
+
+.email p {
+    width: 50%;
+    margin: auto;
+}
+
+.email .form-control {
+    padding: 0 20px;
+    background: #fff;
+}
+
+.email button {
+    border-radius: 20px;
+    background: #54524f;
+}
+
+footer {
+    background: #7f7770;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.navbar-toggler-icon.close-icon{
+    background: url(/images/icons8-close-30.png) 0 0;
+   
+
+   
+}
+
+.navbar-collapse.show{
+    position: fixed;
+    inset: 89px 0px 0px;
+    background: white;
+    z-index: 9;
+    padding: 10px;
+}   
+
+
+@media screen and (min-width:320px) {
+
+    .hero {
+        background: url(/images/hero.png)0 0, no-repeat;
+        background-size: cover;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+
+    .hero h5,
+    p {
+        font-size: 15px;
+    }
+
+    .location .title-head {
+        width: 100%;
+    }
+
+    .location .col-lg-4:nth-of-type(3n-1) {
+        margin: 50px 0;
+    }
+
+    .discount-img {
+        background: url(/images/discount.png) -307px 0 no-repeat;
+        height: 400px;
+    }
+
+    .offer-img {
+        background: url(/images/january\ trip.png) -167px -136px no-repeat;
+        height: 400px;
+    }
+
+
+
+    .mountains p {
+        width: 100%;
+    }
+
+    .world {
+        background: url(/images/climbing.png) 0 -500px no-repeat;
+    }
+
+    .world h2 {
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .regard p {
+        width: 100%;
+    }
+
+    .email p {
+        width: 100%;
+    }
+
+   
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+    .hero {
+        background: url(/images/hero.png)0 0, no-repeat;
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+
+    .hero p {
+        width: 60%;
+    }
+
+
+    .location .card {
+        width: 60%;
+        margin: auto;
+    }
+
+    .location .card p {
+        width: 80%;
+        margin: auto;
+    }
+
+    .location .col-lg-4:nth-of-type(3n-1) {
+        margin: 50px 0;
+    }
+
+    .discount-img {
+        background: url(/images/discount.png) 3px 0 no-repeat;
+        background-size: cover;
+    }
+
+    .offer-img {
+        background: url(/images/january\ trip.png)  0 -330px no-repeat;
+        background-size: cover;
+    }
+
+    .world {
+        background: url(/images/climbing.png) 0 -500px no-repeat;
+    }
+
+    .lorem-cards .col-lg-4:nth-of-type(3n-1) {
+        margin: 50px 0;
+    }
+
+    .offer-img {
+        min-height: 400px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+
+    .hero {
+        background: url(/images/hero.png)0 -215px, no-repeat;
+        background-size: cover;
+    }
+
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero h5 {
+        font-size: 20px;
+    }
+
+    .hero p {
+        width: 100%;
+    }
+
+    .upper,
+    .lower {
+        min-height: 500px;
+    }
+
+    .discount-img {
+        background: url(/images/discount.png) 0px -41px no-repeat;
+        background-size: cover;
+        min-height: 610px;
+    }
+
+    .offer-img {
+        background: url(/images/january\ trip.png) 0px -134px no-repeat;
+        background-size: cover;
+        height: 515px;
+    }
+
+    .location .card {
+        width: 100%;
+    }
+
+
+    .location p {
+        font-size: 16px;
+        width: 40%;
+        display: flex;
+        margin: auto;
+    }
+
+    .location .col-lg-4:nth-of-type(3n-1) {
+        margin: 0;
+    }
+
+    .location .card p {
+        width: 100%;
+        margin: 0;
+    }
+
+    .lorem-cards .col-lg-4:nth-of-type(3n-1) {
+        margin: 0;
+    }
+
+    .world {
+        background: url(/images/climbing.png) 0 -400px no-repeat;
+        background-size: cover;
+    }
+
+    .world h2 {
+        width: 70%;
+    }
+
+    .mountains p {
+        width: 45%;
+    }
+
+    .regard p {
+        width: 50%;
+    }
+
+    .email p {
+        width: 50%;
+    }
+}
