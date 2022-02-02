@@ -25,7 +25,7 @@ a {
 }
 
 .hero {
-    background: url(/images/hero.png)0 -215px, no-repeat;
+    background: url(../images/hero.png)0 -215px, no-repeat;
     background-size: cover;
     padding: 40px 0;
 }
@@ -49,7 +49,7 @@ h5 {
 }
 
 .location {
-    background: url(/images/Shadow\ .png) 0 400px no-repeat;
+    background: url(../images/Shadow\ .png) 0 400px no-repeat;
     padding: 40px 0;
 }
 
@@ -119,7 +119,7 @@ h5 {
 }
 
 .world {
-    background: url(/images/climbing.png) 0 -400px no-repeat;
+    background: url(../images/climbing.png) 0 -400px no-repeat;
     background-size: cover;
     padding: 50px 0;
 }
@@ -152,7 +152,7 @@ h5 {
 
 .regard {
     padding: 50px 0;
-    /* background: url(/IMAGES/right-Shadow.png) 0 0 no-repeat;
+    /* background: url(../images/right-Shadow.png) 0 0 no-repeat;
     background-size: revert; */
 }
 
@@ -203,7 +203,7 @@ footer h5 {
 }
 
 .navbar-toggler-icon.close-icon{
-    background: url(/images/icons8-close-30.png) 0 0;
+    background: url(../images/icons8-close-30.png) 0 0;
    
 
    
@@ -221,7 +221,7 @@ footer h5 {
 @media screen and (min-width:320px) {
 
     .hero {
-        background: url(/images/hero.png)0 0, no-repeat;
+        background: url(../images/hero.png)0 0, no-repeat;
         background-size: cover;
     }
 
@@ -243,12 +243,12 @@ footer h5 {
     }
 
     .discount-img {
-        background: url(/images/discount.png) -307px 0 no-repeat;
+        background: url(../images/discount.png) -307px 0 no-repeat;
         height: 400px;
     }
 
     .offer-img {
-        background: url(/images/january\ trip.png) -167px -136px no-repeat;
+        background: url(../images/january\ trip.png) -167px -136px no-repeat;
         height: 400px;
     }
 
@@ -259,7 +259,7 @@ footer h5 {
     }
 
     .world {
-        background: url(/images/climbing.png) 0 -500px no-repeat;
+        background: url(../images/climbing.png) 0 -500px no-repeat;
     }
 
     .world h2 {
@@ -284,7 +284,7 @@ footer h5 {
 @media screen and (min-width:768px) {
 
     .hero {
-        background: url(/images/hero.png)0 0, no-repeat;
+        background: url(../images/hero.png)0 0, no-repeat;
         background-size: cover;
         padding: 40px 0;
     }
@@ -310,17 +310,17 @@ footer h5 {
     }
 
     .discount-img {
-        background: url(/images/discount.png) 3px 0 no-repeat;
+        background: url(../images/discount.png) 3px 0 no-repeat;
         background-size: cover;
     }
 
     .offer-img {
-        background: url(/images/january\ trip.png)  0 -330px no-repeat;
+        background: url(../images/january\ trip.png)  0 -330px no-repeat;
         background-size: cover;
     }
 
     .world {
-        background: url(/images/climbing.png) 0 -500px no-repeat;
+        background: url(../images/climbing.png) 0 -500px no-repeat;
     }
 
     .lorem-cards .col-lg-4:nth-of-type(3n-1) {
@@ -336,7 +336,7 @@ footer h5 {
 
 
     .hero {
-        background: url(/images/hero.png)0 -215px, no-repeat;
+        background: url(../images/hero.png)0 -215px, no-repeat;
         background-size: cover;
     }
 
@@ -359,13 +359,13 @@ footer h5 {
     }
 
     .discount-img {
-        background: url(/images/discount.png) 0px -41px no-repeat;
+        background: url(../images/discount.png) 0px -41px no-repeat;
         background-size: cover;
         min-height: 610px;
     }
 
     .offer-img {
-        background: url(/images/january\ trip.png) 0px -134px no-repeat;
+        background: url(../images/january\ trip.png) 0px -134px no-repeat;
         background-size: cover;
         height: 515px;
     }
@@ -396,7 +396,7 @@ footer h5 {
     }
 
     .world {
-        background: url(/images/climbing.png) 0 -400px no-repeat;
+        background: url(../images/climbing.png) 0 -400px no-repeat;
         background-size: cover;
     }
 
